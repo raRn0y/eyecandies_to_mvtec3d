@@ -7,9 +7,9 @@ Modify the folder format of Eyecandies dataset to be consistent with that of Mvt
 
 2. **File Classification**:
    - Identifies three file types:
-     - RGB images (`*_image_5.png`)
-     - Depth maps (`*_depth.png`)
-     - Mask files (`*_mask.png`)
+     - RGB images (`\d\d\d_image_5.png`)
+     - Depth maps (`\d\d\d_depth.png`)
+     - Mask files (`\d\d\d_mask.png`)
    - Uses regex patterns for strict filename matching
 
 3. **Quality Classification**:
